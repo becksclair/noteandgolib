@@ -1,0 +1,69 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="sn_signup_url">https://simple-note.appspot.com/create/</string>
+    
+    <string name="app_name">NoteAndGo</string>
+    <string name="notification_sync">Sync in progress</string>
+    <string name="untitled">Untitled</string>
+    <string name="notes">Notes</string>
+    
+    <string name="set_settings">NoteAndGo Settings</string>
+    <string name="search_hint">Search title or contents</string>
+    <string name="search_label">Notes search</string>
+    <string name="photo">Photo</string>
+    
+    <string name="photos">Photos</string>
+    <string name="thumbdesc">Thumbnail of the photo</string>
+    
+    
+    <!-- Menus -->
+    <string name="new_note">New</string>
+    <string name="search">Search</string>
+    <string name="purchase">Purchase</string>
+    <string name="settings">Settings</string>
+    <string name="sync">Sync now</string>
+    <string name="force_tablet">Force Tablet</string>
+    <string name="tags">Tags</string>
+    <string name="share">Share</string>
+    <string name="menu_redeem_coupon">Redeem coupon</string>
+    <string name="menu_send_feedback">Send feedback</string>
+    <!--  -->
+    
+    
+    <!-- Settings -->
+    <string name="settings_general_summary">General settings</string>
+    <string name="settings_category_text_formatting">Text formatting</string>
+    <string name="settings_order_by_title">Order notes by</string>
+    <string name="settings_order_by_description">Sets the order to display the notes</string>
+    <string name="settings_linkifyContent">Add links to content</string>
+    <string name="settings_linkifyContentDescription">Create links for content such as dates, phone numbers, etc.</string>
+    
+    
+    <string name="settings_sn_summary">Simplenote Credentials</string>
+    <string name="settings_sn_enabled">Enable Simplenote</string>
+    <string name="settings_sn_enabled_summary">Enable synchronization with Simplenote</string>
+    <string name="settings_sn_signup_title">Signup for Simplenote</string>
+    <string name="settings_sn_signup_summary">Create a new Simplenote account</string>
+    <string name="settings_sn_username_summary">Your Simplenote username</string>
+    <string name="settings_sn_username">Username</string>
+    <string name="settings_sn_password_summary">Your Simplenote password</string>
+    <string name="settings_sn_password">Password</string>
+    
+    <string name="server_error">There was an error connectiong with the server, try again later.</string>
+    <string name="redeem_code_failed">You entered an invalid promo code.</string>
+    <!--  -->
+    
+    
+    <!-- Dialog Strings -->
+    <string name="okbtn">OK</string>
+    <string name="cancelbtn">Cancel</string>
+    <string name="rename_dialog_title">Give it a name</string>
+    <string name="photoTitleHint">Set a name or current date</string>
+    <string name="delete_message">Sure you want to delete this?</string>
+    <string name="dialog_set_title_ok">OK</string>
+    <string name="dialog_set_title_text">Give it a name</string>
+    <string name="dialog_info_title">Information</string>
+    <string name="dialog_coupon_title">Enter your coupon code</string>
+    <string name="tags_desc">Comma separated list</string>
+    <!--  -->
+    
+</resources>

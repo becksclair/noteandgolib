@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dip"
+        android:paddingLeft="7dip"
+        android:paddingRight="7dip"
+        android:paddingBottom="12dip"
+        android:textSize="24sp"
+        android:textColor="@color/darktext"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true" />
+
+</LinearLayout>

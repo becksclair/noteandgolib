@@ -1,0 +1,19 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="bkg">#EDECEA</color>
+    
+    <color name="accent1">#C5F9AF</color>
+    <color name="accent1t">#00C5F9AF</color>
+    
+    <color name="accent2">#A8CB91</color>
+    <color name="accent2t">#00A8CB91</color>
+    <color name="actionbarbkg">#434538</color>
+    <color name="actionbaraccent">#7D794A</color>
+    
+    <color name="lighttext">#999999</color>
+    <color name="darktext">#222222</color>
+    <color name="graytext">#666666</color>
+    
+    <color name="editor_bg">#434538</color>
+    
+    <color name="item_bkg">#99191919</color>
+</resources>

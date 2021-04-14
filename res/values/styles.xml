@@ -1,0 +1,29 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<style name="Theme.NoteAndGo" parent="Theme.Sherlock.Light">
+	    <item name="actionBarStyle">@style/NoteAndGoActionBarStyle</item>
+	    <item name="android:actionBarStyle">@style/NoteAndGoActionBarStyle</item>
+
+        <item name="actionBarTabTextStyle">@style/tabTextStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/tabTextStyle</item>
+        
+        <item name="actionBarItemBackground">@drawable/ad_selectable_bg</item>
+	    <item name="android:selectableItemBackground">@drawable/ad_selectable_bg</item>
+	       
+	    <item name="actionBarTabStyle">@style/MyActionBarTabStyle</item>
+	    <item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+	    
+	    <item name="actionMenuTextColor">@color/lighttext</item>
+        <item name="android:actionMenuTextColor">@color/lighttext</item>
+	    
+	    <item name="popupMenuStyle">@style/MyPopupMenu</item>
+	    <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+	    
+	    <item name="dropDownListViewStyle">@style/MyDropDownListView</item>
+	    <item name="android:dropDownListViewStyle">@style/MyDropDownListView</item>
+	    
+        <!-- <item name="android:actionDropDownStyle">@style/MyDropDownNav</item> -->
+	    <item name="android:listViewStyle">@style/MyListView</item>
+	</style>
+	
+</resources>

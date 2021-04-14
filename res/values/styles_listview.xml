@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MyListView" parent="android:style/Widget.Holo.Light.ListView">
+        <item name="android:listSelector">@drawable/list_selector</item>
+    </style>
+
+</resources>

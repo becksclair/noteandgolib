@@ -1,0 +1,67 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="sn_signup_url">https://simple-note.appspot.com/create/</string>
+
+    <string name="app_name">NoteAndGo</string>
+    <string name="notification_sync">Sincronizacion en progreso</string>
+    <string name="untitled">Sin titulo</string>
+    <string name="notes">Notas</string>
+    
+    <string name="set_settings">NoteAndGo Preferencias</string>
+    <string name="search_hint">Buscar titulo o contentido</string>
+    <string name="search_label">Busqueda de notas</string>
+    <string name="photo">Foto</string>
+    
+    <string name="photos">Fotos</string>
+    <string name="thumbdesc">Thumbnail de la foto</string>
+    
+    
+    <!-- Menus -->
+    <string name="new_note">Nueva</string>
+    <string name="search">Busqueda</string>
+    <string name="purchase">Comprar</string>
+    <string name="settings">Preferencias</string>
+    <string name="sync">Sincronizar ahora</string>
+    <string name="force_tablet">Forzar modo tablet</string>
+    <string name="share">Compartir</string>
+    <string name="menu_redeem_coupon">Usar cupon</string>
+    <string name="menu_send_feedback">Enviar opinion</string>
+    <!--  -->
+    
+    
+    <!-- Settings -->
+    <string name="settings_general_summary">Preferencias generales</string>
+    <string name="settings_order_by_title">Ordenar notas por</string>
+    <string name="settings_order_by_description">Seleciona el orden de presentacion de las notas</string>
+    <string name="settings_category_text_formatting">Formato de texto</string>
+    <string name="settings_linkifyContent">Añadir links apartir del contenido</string>
+    <string name="settings_linkifyContentDescription">Crea links para el contenido como fechas, numeros de telefono, etc.</string>
+    
+    
+    <string name="settings_sn_summary">Credenciales de Simplenote</string>
+    <string name="settings_sn_enabled">Habilitar Simplenote</string>
+    <string name="settings_sn_enabled_summary">Habilitar sincronizacion con Simplenote</string>
+    <string name="settings_sn_signup_title">Registrarse en Simplenote</string>
+    <string name="settings_sn_signup_summary">Crear una nueva cuenta en Simplenote</string>
+    <string name="settings_sn_username_summary">Su usuario de Simplenote</string>
+    <string name="settings_sn_username">Usuario</string>
+    <string name="settings_sn_password_summary">Su contraseña de Simplenote</string>
+    <string name="settings_sn_password">Contraseña</string>
+    
+    <string name="server_error">Hubo un error contactando el servidor, intentelo de nuevo mas tarde.</string>
+    <string name="redeem_code_failed">El codigo promocional no es valido.</string>
+    <!--  -->
+    
+    
+    <!-- Dialog Strings -->
+    <string name="okbtn">Aceptar</string>
+    <string name="cancelbtn">Cancelar</string>
+    <string name="rename_dialog_title">Nombrar</string>
+    <string name="photoTitleHint">Nombre o la fecha actual</string>
+    <string name="delete_message">Seguro que quire eleminar?</string>
+    <string name="dialog_set_title_ok">Aceptar</string>
+    <string name="dialog_set_title_text">Nombrar</string>
+    <string name="dialog_info_title">Informacion</string>
+    <string name="dialog_coupon_title">Codigo promocional</string>
+    <!--  -->
+    
+</resources>

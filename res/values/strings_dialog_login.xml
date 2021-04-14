@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message">Setup your Simplenote credentials now?</string>
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+</resources>

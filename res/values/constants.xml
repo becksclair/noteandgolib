@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <bool name="paid">true</bool>
+    
+    <string name="admob_id" tools:ignore="MissingTranslation">a14fdb7312bb467</string>
+    <string name="analytics_id" tools:ignore="MissingTranslation">LBAUWERBVBPISKFNDQXD</string>
+    
+    <string name="market_pro_link" tools:ignore="MissingTranslation,MissingTranslation">market://details?id=com.heliasar.noteandgopro</string>
+    
+    <string name="feedback_email" tools:ignore="MissingTranslation,MissingTranslation">feedback@heliasar.com</string>
+    <string name="feedback_subject" tools:ignore="MissingTranslation,MissingTranslation">NoteAndGo Feedback</string>
+</resources>

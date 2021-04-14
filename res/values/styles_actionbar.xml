@@ -1,0 +1,59 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="NoteAndGoActionBarStyle" parent="Widget.Sherlock.Light.ActionBar">
+        <item name="background">@drawable/actionbar_bg</item>
+        <item name="android:background">@drawable/actionbar_bg</item>
+        <item name="actionBarItemBackground">@drawable/ad_selectable_bg</item>
+        <item name="android:selectableItemBackground">@drawable/ad_selectable_bg</item>
+        
+        <item name="titleTextStyle">@style/titleTextStyle</item>
+        <item name="android:titleTextStyle">@style/titleTextStyle</item>
+        <item name="subtitleTextStyle">@style/subtitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/subtitleTextStyle</item>     
+    </style>
+
+    <!-- AB Text Styles -->
+    <style name="titleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/lighttext</item>
+    </style>
+    
+    <style name="subtitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/lighttext</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    
+    <style name="MyActionBarTabStyle" parent="android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_bg</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+    </style>
+    
+    <style name="tabTextStyle" parent="android:style/Widget.ActionBar.TabText">
+        <item name="android:textColor">@color/lighttext</item>
+    </style>
+    <!-- AB Text Styles -->
+    
+    <!-- AB Overflow menu -->
+    <style name="MyPopupMenu" parent="android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/ad_menu_dropdown_panel_holo_light</item> 
+    </style>
+    
+        <!-- style the items within the overflow menu -->
+        <style name="MyDropDownListView" parent="android:style/Widget.Holo.ListView.DropDown">
+                <item name="android:listSelector">@drawable/ad_selectable_bg</item>
+        </style>
+
+    <!-- AB Overflow menu -->
+
+    
+    <!-- AB style the list navigation -->
+    <!--
+    <style name="MyDropDownNav" parent="android:style/Widget.Holo.Light.DropDownItem">
+        <item name="android:background">@drawable/ad_spinner_background_holo_light</item>
+        <item name="android:popupBackground">@drawable/ad_menu_dropdown_panel_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/ad_selectable_background</item>
+    </style>
+    -->
+    <!-- AB style the list navigation -->
+    
+</resources>

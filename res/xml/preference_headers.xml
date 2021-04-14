@@ -1,0 +1,15 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header
+        android:fragment="com.heliasar.noteandgolib.ui.Preferences$Prefs"
+        android:summary="@string/settings_general_summary"
+        android:title="@string/settings" />
+    <header
+        android:summary="@string/settings_sn_signup_summary"
+        android:title="@string/settings_sn_signup_title" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/sn_signup_url" />
+    </header>
+
+</preference-headers>

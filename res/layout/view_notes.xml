@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/notesListTpl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false" />
+    
+	<com.google.ads.AdView
+	    android:id="@+id/adView"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    ads:adUnitId="@string/admob_id"
+	    ads:adSize="BANNER"
+	    ads:testDevices="TEST_EMULATOR"
+	    ads:loadadoncreate="true" />
+
+</LinearLayout>

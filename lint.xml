@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="AlwaysShowAction">
+        <ignore path="src\com\heliasar\noteandgolib\ui\EditActivity.java" />
+        <ignore path="src\com\heliasar\noteandgolib\ui\EditActivity.java" />
+        <ignore path="src\com\heliasar\noteandgolib\ui\MainActivity.java" />
+        <ignore path="src\com\heliasar\noteandgolib\ui\MainActivity.java" />
+    </issue>
+    <issue id="MissingTranslation" severity="informational" />
+</lint>

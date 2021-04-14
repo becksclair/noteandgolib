@@ -1,0 +1,64 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/settings_category_text_formatting">
+        <ListPreference
+            android:defaultValue="modify_date"
+            android:entries="@array/order_by_options"
+            android:entryValues="@array/order_by_values"
+            android:key="order_by"
+            android:summary="@string/settings_order_by_description"
+            android:title="@string/settings_order_by_title" />
+	    
+		<CheckBoxPreference android:title="@string/settings_linkifyContent"
+							android:defaultValue="false"
+							android:summary="@string/settings_linkifyContentDescription"
+							android:key="linkifyEnabled" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/settings_sn_summary">
+        <Preference android:name="snsignup"
+                    android:summary="@string/settings_sn_signup_summary"
+                    android:title="@string/settings_sn_signup_title">
+        
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="@string/sn_signup_url" />
+        </Preference>
+	    
+	    <CheckBoxPreference android:title="@string/settings_sn_enabled"
+	                        android:defaultValue="false"
+	                        android:summary="@string/settings_sn_enabled_summary"
+	                        android:key="simpleNoteEnabled" />
+	                        
+        <EditTextPreference android:name="username"
+                            android:summary="@string/settings_sn_username_summary"
+                            android:title="@string/settings_sn_username"
+                            android:key="simpleNoteUsername"
+                            android:inputType="textEmailAddress"
+                            android:imeOptions="actionDone"
+                            android:autoText="false" />
+                            
+        <EditTextPreference android:summary="@string/settings_sn_password_summary"
+                            android:title="@string/settings_sn_password"
+                            android:key="simpleNotePassword"
+                            android:name="password"
+                            android:password="true" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="Debug Options">
+        <CheckBoxPreference android:title="Enable Debug mode"
+                            android:defaultValue="false"
+                            android:summary="Enables all debug mode checks logs, etc."
+                            android:key="debugMode" />
+	
+        <CheckBoxPreference android:title="Force tablet mode"
+                            android:defaultValue="false"
+                            android:summary="Forces the app to load with the tablet UI even on phones"
+                            android:key="forceTablet" />
+                            
+        <CheckBoxPreference android:title="Disable connectivity checks"
+                            android:defaultValue="false"
+                            android:summary="Bypasses the connectivity to connect to internet"
+                            android:key="bypassOnlineChecks" />
+	</PreferenceCategory>
+	
+</PreferenceScreen> 
